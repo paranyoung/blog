@@ -1,0 +1,169 @@
+.subpage-gallery{
+    .wrapper{
+        .content{
+            ul{
+                li{
+                    border-bottom: 1px #ebebeb solid;
+                    .gallery{
+                        text-align: center;
+                    }
+                    .tag{
+                        padding: 30px 0;
+                        display: block;
+                    }
+                }
+            }
+        }
+        .gallery_list{
+            .gallery_category{
+                border: solid 1px #acacac;
+                padding: 30px 30px;
+                span{
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                    display: block;
+                    border-bottom: 1px #acacac solid;
+                    color: #999999;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:900px) {
+//tablet
+
+    .subpage-gallery{
+        .wrapper{
+            .content{
+                width: 750px;
+                margin:  0 auto;
+                margin-top: 50px;
+                ul{
+                    li{
+                        .gallery{
+                            img{
+                                max-width: 750px;
+                            }
+                        }
+                    }
+                }
+            }
+            .comment{
+                max-width: 780px;
+                margin: 0 auto;
+                .area{
+                    input[type="submit"]{
+                        width: 80px;
+                        height: 32px;
+                        margin-top: 0;
+                    }
+                }
+            }
+            .gallery_num{
+                width: 750px;
+                margin: 0 auto;
+                .num{
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-left: 45px;
+                    li{
+                        margin-top: 7%;
+                        width: 130px;
+                        height: 130px;
+                        margin-right: 2px;
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                        a{
+                            img{
+                                width: 130px;
+                                height: 130px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+//mobile
+    .subpage-gallery{
+        .wrapper{
+            width: 450px;
+            margin: 0 auto;
+            .content{
+                max-width: 450px;
+                ul{
+                    li{
+                        .h{
+                            h1{
+                                font-size: 20px;
+                            }
+                        }
+                        .date{
+                            span{
+                                font-size: 7px;
+                            }
+                        }
+                        .view{
+                            font-size: 13px;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .tag{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+            .write{
+                img{
+                    width: 60px;
+                }
+            }
+            .comment{
+                width: 450px;
+                .area{
+                    margin: 0 auto;
+                    width: 100%;
+                    height: 90px;
+                    input[type="submit"]{
+                        margin-top: 20px;
+                        width: 70px;
+                        height: 25px;
+                    }
+                }
+            }
+            .gallery_num{
+                width: 390px;
+                height: 150px;
+                .button{
+                    height: 100%;
+                    .num{
+                        height: 100%;
+                        li{
+                            width: 100px;
+                            height: 100px;
+                            img{
+                                width: 100px;
+                                height: 100px;
+                            }
+                        }
+                        li:nth-child(4){
+                            display: none;
+                        }
+                        li:nth-child(5){
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

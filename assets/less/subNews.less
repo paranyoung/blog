@@ -1,0 +1,115 @@
+.subpage-news{
+    .wrapper{
+        .content.view{
+            .date{
+                font-size: 13px;
+            }
+            .news{
+                padding: 70px 0;
+                span{
+                    font-size: 15px;
+                    p{
+                    }
+                    p:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+                padding: 30px 0;
+                >img{
+                    vertical-align: top;
+                    display: block;
+                }
+            }
+        }
+        .news_list{
+            .news_category{
+                border: solid 1px #acacac;
+                padding: 30px 30px;
+                span{
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                    display: block;
+                    border-bottom: 1px #acacac solid;
+                    color: #999999;
+                }
+                ul{
+                    li{
+                        display: inline-block;
+                        padding: 10px 0;
+                        color: #999999;
+                    }
+                    li:last-child{
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+
+@media screen and (max-width:900px) {
+    //tablet
+    .subpage-news{
+        .wrapper{
+            // .news{
+            //     max-width: 750px;
+            //     margin: 0 auto;
+            // }
+            // .list{
+            //     .category{
+            //         max-width: 690px;
+            //         margin: 0 auto;
+            //     }
+            // }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+//mobile
+    .subpage-news{
+        .wrapper{
+            width: 460px;
+            margin: 0 auto;
+            .news{
+                padding: 20px;
+                .content{
+                    ul{
+                        li{
+                            .h{
+                                width: 380px;
+                                h1{
+                                    font-size: 20px;
+                                    padding: 30px 0;
+                                }
+                            }
+                            .edit{
+                                margin-top: 35px;
+                            }
+                            .date{
+                                font-size: 7px;
+                            }
+                            .news{
+                                span{
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .write{
+                img{
+                    width: 60px;
+                }
+            }
+            .list{
+                .category{
+                    width: 400px;
+                    font-size: 13px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.dev.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/javascript/main.js"></script>
+    <script type="text/javascript" src="../assets/javascript/masony.js"></script>
+    <script src="../assets/javascript/parallax.js"></script>
+
+    <title>Fox Snap : About Me</title>
+</head>
+<body>
+
+    include "header.html"
+
+    <div class="wrap subpage-aboutme">
+        <div class="wrapper">
+            <div class="nav" id="nav">
+                <ul>
+                    <li><a href="main.html#view">home</a></li>
+                    <li><a href="subAboutme.html#view">about me</a></li>
+                    <li><a href="subNews.html#view">news</a></li>
+                    <li><a href="subGallery.html#view">
+                            gallery
+                        <ul>
+                            <li><a href="subGallery.html#view">gallery 01</a></li>
+                            <li><a href="subGallery.html#view">gallery 02</a></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="subCommunity.html#view">community
+                        <ul>
+                            <li><a href="subCommunity.html#view">community 01</a></li>
+                            <li><a href="subCommunity.html#view">community 02</a></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="subPrice.html#view">price</a></li>
+                    <li><a href="subLogin.html#view">contect me</a></li>
+                </ul>
+            </div>
+            <div class="aboutMe" id="view">
+                <div class="profil">
+                    <img src="../assets/images/profil2.png" alt="프로필사진">
+                </div>
+                <div class="content view">
+                    <h1>hello i'm fox_snap</h1>
+                    <span>
+                        <p>딱 한가지 하고싶은 말은</p>
+                        <p>“어른이 되지 않아도 괜찮아요.</br>
+                            다만, 당신 자신이 되세요.”</br>
+                            입니다.</p>
+                        <p>그것이 여러분이 이 세상에 태어난 목적 이니까요.</p>
+                        <p>- 요시모토 바나나 ‘어른이 된다는것’ -</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <a href="#nav"><img src="../assets/images/top.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="wrap insta">
+        <ul>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUabwkJFubr/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUabwkJFubr/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUabwkJFubr/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUXyAR2lk7A/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUW7UbKFgWp/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUW7UbKFgWp/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUYgtHzFgAr/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUW7UbKFgWp/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="footerline"></div>
+
+    include "footer.html"
+
+
+    <script>
+    $('.grid').masonry({
+          // options
+          itemSelector: '.grid-item',
+          columnWidth: 47,
+         transitionDuration: 0
+    });
+
+    $('.parallax-window').parallax({
+        imageSrc: '../assets/images/main.png',
+    });
+
+    $('.mnav .x').click(function(){
+        $('.mnav').css('display','none');
+    })
+
+    $('.mcover .coverlist .list').click(function(){
+        $('.mnav').css('display','block')
+    })
+
+    $('.mheader .menu .list').click(function(){
+        $('.mnav').css('display','block')
+    })
+
+    </script>
+
+
+
+</body>
+</html>

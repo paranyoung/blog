@@ -1,0 +1,96 @@
+.subpage-aboutme{
+
+    .wrapper{
+        .aboutMe{
+            margin-top: 100px;
+            height: 100%;
+            .profil{
+                margin: 0 auto;
+                width: 520px;
+                height: 520px;
+                border-radius: 50%;
+            }
+            .content{
+                text-align: center;
+                text-transform: uppercase;
+                margin-top: 100px;
+                h1{
+                    font-weight: bold;
+                    font-size: 40px;
+                    color: #c78c67;
+                }
+                span{
+                    display: block;
+                    padding: 80px;
+                    p{
+                        height: 100%;
+                        margin-bottom: 30px;
+                        color: #636363;
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                    p:nth-child(2){
+                        color: #df9a79;
+                    }
+                    p:last-child{
+                        margin-bottom: 0;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+//tablet
+    .wrap{
+        .wrapper{
+            .aboutMe{
+                max-width: 750px;
+                margin:  0 auto;
+                margin-top: 50px;
+                .profil{
+                    text-align: center;
+                    width: 200px;
+                    height: 200px;
+                    img{
+                        width: 200px;
+                    }
+                }
+                .content{
+                    margin-top: 50px;
+                    h1{
+                        font-size: 30px;
+                    }
+                    span{
+                        padding: 0;
+                        margin-top: 30px;
+                        p{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+//mobile
+    .subpage-aboutme{
+        padding: 20px;
+        .wrapper{
+            max-width: 480px;
+            >ul{
+                outline: 1px #f00 solid;
+                >li{
+                    .view{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.dev.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/javascript/main.js"></script>
+    <script type="text/javascript" src="../assets/javascript/masony.js"></script>
+    <script src="../assets/javascript/parallax.js"></script>
+
+    <title>Fox Snap : Contect Me</title>
+</head>
+<body>
+
+    include "header.html"
+
+    <div class="wrap subpage-contect">
+        <div class="wrapper">
+            <div class="nav" id="nav">
+                <ul>
+                    <li><a href="main.html">home</a></li>
+                    <li><a href="subAboutme.html#view">bout me</a></li>
+                    <li><a href="subNews.html#view">news</a></li>
+                    <li><a href="subGallery.html#view">
+                            gallery
+                        <ul>
+                            <li><a href="subGallery.html#view">gallery 01</a></li>
+                            <li><a href="subGallery.html#view">gallery 02</a></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="subCommunity.html#view">community
+                        <ul>
+                            <li><a href="subCommunity.html#view">community 01</a></li>
+                            <li><a href="subCommunity.html#view">community 02</a></li>
+                        </ul>
+                    </a></li>
+                    <li><a href="subPrice.html#view">price</a></li>
+                    <li><a href="subContect.html#view">contect me</a></li>
+                </ul>
+            </div>
+            <div class="content view" id="view">
+                <div class="contect">
+                    <div class="h">
+                        <h1>contect me</h1>
+                    </div>
+                    <div class="photo">
+                        <img src="../assets/images/main.png" alt="">
+                    </div>
+                    <div class="contec">
+                        <span>사진 예약문의나 상업촬영문의는 이쪽으로 연락주세요.</span>
+                    </div>
+                    <div class="memo">
+                        <div class="memo_1">
+                            <input type="text" name="" value="" placeholder="*NAME" class="name">
+                            <input type="text" name="" value="" placeholder="*E-MAIL/PHONE" class="name">
+                        </div>
+                        <div class="memo_2">
+                            <input type="text" name="" value="" placeholder="*BOOKED DATE" class="date">
+                        </div>
+                        <div class="memo_3">
+                            <textarea class="messege" row="4" col="50" placeholder="*MESSEGE"></textarea>
+                        </div>
+                        <div class="send">
+                            <input type="submit" name="" value="SEND TO MESSEGE">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top">
+            <a href="#nav"><img src="../assets/images/top.png" alt=""></a>
+        </div>
+    </div>
+    <div class="wrap insta">
+        <ul>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUabwkJFubr/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUabwkJFubr/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUabwkJFubr/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUXyAR2lk7A/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUW7UbKFgWp/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUW7UbKFgWp/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUYgtHzFgAr/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <a href="https://www.instagram.com/p/BUW7UbKFgWp/?taken-by=fox.snap"></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="footerline"></div>
+
+    include "footer.html"
+
+    <script>
+    $('.grid').masonry({
+          // options
+          'itemSelector': '.grid-item',
+          'columnWidth': 47,
+         'transitionDuration': 0
+    });
+
+    $('.parallax-window').parallax({
+        imageSrc: '../assets/images/main.png',
+    });
+
+    $('.mnav .x').click(function(){
+        $('.mnav').css('display','none');
+    })
+
+    $('.mcover .coverlist .list').click(function(){
+        $('.mnav').css('display','block')
+    })
+
+    $('.mheader .menu .list').click(function(){
+        $('.mnav').css('display','block')
+    })
+
+    </script>
+
+</body>
+</html>

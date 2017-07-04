@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paranyoung/blog.git"
+  },
+  "author": "서영신",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paranyoung/blog/issues"
+  },
+  "homepage": "https://github.com/paranyoung/blog#readme",
+  "devDependencies": {
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-includes": "^1.0.0",
+    "grunt-serve": "^0.1.6"
+  }
+}
