@@ -20,7 +20,7 @@ $(function(){
                 $(this).find('ul').stop().stop().slideDown();
 
             })
-                
+
         }else if(tw > 890){
 
             console.log('PC')

@@ -113,7 +113,7 @@ a:hover {
 /* line 99, assets\less\common.less */
 .wrap .wrapper .comment {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
   overflow: hidden;
 }
 /* line 104, assets\less\common.less */
@@ -757,153 +757,153 @@ a:hover {
   .footer .wrapper .footerlist .f .fWrapper .line {
     width: 180px;
   }
-  /* line 720, assets\less\common.less */
+  /* line 721, assets\less\common.less */
   .footer .wrapper .footerlist .f .fWrapper .fTag .content {
     width: 212px;
   }
-  /* line 728, assets\less\common.less */
+  /* line 729, assets\less\common.less */
   .footer .wrapper .foot li {
     font-size: 10px;
   }
-  /* line 736, assets\less\common.less */
+  /* line 737, assets\less\common.less */
   .wrap .top a {
     width: 40px;
     height: 40px;
   }
-  /* line 739, assets\less\common.less */
+  /* line 740, assets\less\common.less */
   .wrap .top a img {
     width: 40px;
   }
-  /* line 747, assets\less\common.less */
+  /* line 748, assets\less\common.less */
   .wrap .wrapper {
     max-width: 850px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 755, assets\less\common.less */
+  /* line 756, assets\less\common.less */
   #main #header {
     display: block;
   }
-  /* line 758, assets\less\common.less */
+  /* line 759, assets\less\common.less */
   #main .mheader {
     display: none;
   }
-  /* line 761, assets\less\common.less */
+  /* line 762, assets\less\common.less */
   .mheader {
     display: none;
   }
-  /* line 765, assets\less\common.less */
+  /* line 766, assets\less\common.less */
   #nav li {
     display: none;
   }
-  /* line 768, assets\less\common.less */
+  /* line 769, assets\less\common.less */
   #nav li > ul li {
     display: none;
   }
-  /* line 775, assets\less\common.less */
+  /* line 776, assets\less\common.less */
   html body .m {
     display: block;
   }
-  /* line 780, assets\less\common.less */
+  /* line 781, assets\less\common.less */
   #header {
     background-size: cover;
   }
-  /* line 782, assets\less\common.less */
+  /* line 783, assets\less\common.less */
   #header .wrapper {
     position: relative;
     height: 100%;
   }
-  /* line 786, assets\less\common.less */
+  /* line 787, assets\less\common.less */
   #header .wrapper .link {
     display: none;
   }
-  /* line 790, assets\less\common.less */
+  /* line 791, assets\less\common.less */
   #header .wrapper .gnb .social {
     display: none;
   }
-  /* line 793, assets\less\common.less */
+  /* line 794, assets\less\common.less */
   #header .wrapper .gnb .login {
     display: none;
   }
-  /* line 796, assets\less\common.less */
+  /* line 797, assets\less\common.less */
   #header .wrapper .gnb .mlogin {
     display: block;
     overflow: hidden;
   }
-  /* line 799, assets\less\common.less */
+  /* line 800, assets\less\common.less */
   #header .wrapper .gnb .mlogin ul {
     margin-right: 20px;
   }
-  /* line 801, assets\less\common.less */
+  /* line 802, assets\less\common.less */
   #header .wrapper .gnb .mlogin ul li {
     display: inline-block;
     float: right;
   }
-  /* line 806, assets\less\common.less */
+  /* line 807, assets\less\common.less */
   #header .wrapper .gnb .mlogin ul li:last-child img {
     margin-right: 5px;
   }
-  /* line 813, assets\less\common.less */
+  /* line 814, assets\less\common.less */
   #header .wrapper .mcount {
     display: block;
     margin-top: 50px;
   }
-  /* line 816, assets\less\common.less */
+  /* line 817, assets\less\common.less */
   #header .wrapper .mcount ul {
     text-align: center;
   }
-  /* line 818, assets\less\common.less */
+  /* line 819, assets\less\common.less */
   #header .wrapper .mcount ul li {
     display: inline-block;
     margin-right: 20px;
     color: #ffffff;
     font-weight: bold;
   }
-  /* line 824, assets\less\common.less */
+  /* line 825, assets\less\common.less */
   #header .wrapper .mcount ul li span:first-child {
     margin-right: 10px;
   }
-  /* line 829, assets\less\common.less */
+  /* line 830, assets\less\common.less */
   #header .wrapper .mcount ul li:last-child {
     margin-right: 0;
   }
-  /* line 835, assets\less\common.less */
+  /* line 836, assets\less\common.less */
   #header .wrapper .title > div {
     margin-top: 30px;
   }
-  /* line 839, assets\less\common.less */
+  /* line 840, assets\less\common.less */
   #header .wrapper .mcover {
     position: absolute;
     bottom: 20px;
     overflow: hidden;
   }
-  /* line 843, assets\less\common.less */
+  /* line 844, assets\less\common.less */
   #header .wrapper .mcover ul {
     display: block;
   }
-  /* line 846, assets\less\common.less */
+  /* line 847, assets\less\common.less */
   #header .wrapper .mcover .profil {
     margin-bottom: 20px;
   }
-  /* line 848, assets\less\common.less */
+  /* line 849, assets\less\common.less */
   #header .wrapper .mcover .profil li {
     display: block;
     margin-left: 20px;
   }
-  /* line 854, assets\less\common.less */
+  /* line 855, assets\less\common.less */
   #header .wrapper .mcover .coverlist li {
     display: inline-block;
     margin-right: 5px;
   }
-  /* line 857, assets\less\common.less */
+  /* line 858, assets\less\common.less */
   #header .wrapper .mcover .coverlist li:first-child {
     margin-left: 20px;
   }
-  /* line 860, assets\less\common.less */
+  /* line 861, assets\less\common.less */
   #header .wrapper .mcover .coverlist li:last-child {
     margin-right: 0;
   }
-  /* line 871, assets\less\common.less */
+  /* line 872, assets\less\common.less */
   .mheader {
     position: fixed;
     height: 50px;
@@ -911,28 +911,28 @@ a:hover {
     width: 100%;
     background-color: #ffffff;
   }
-  /* line 877, assets\less\common.less */
+  /* line 878, assets\less\common.less */
   .mheader .wrapper {
     padding: 0 20px;
     line-height: 50px;
     text-align: center;
   }
-  /* line 881, assets\less\common.less */
+  /* line 882, assets\less\common.less */
   .mheader .wrapper .menu {
     margin: 0 auto;
     display: inline-block;
   }
-  /* line 885, assets\less\common.less */
+  /* line 886, assets\less\common.less */
   .mheader .wrapper .search {
     float: right;
     line-height: 50px;
   }
-  /* line 889, assets\less\common.less */
+  /* line 890, assets\less\common.less */
   .mheader .wrapper .search span img {
     width: 17px;
     height: 17px;
   }
-  /* line 897, assets\less\common.less */
+  /* line 898, assets\less\common.less */
   .m.wrap.mnav {
     display: none;
     position: absolute;
@@ -946,104 +946,104 @@ a:hover {
     text-transform: uppercase;
     font-weight: bold;
   }
-  /* line 910, assets\less\common.less */
+  /* line 911, assets\less\common.less */
   .m.wrap.mnav .nav_head {
     border-bottom: 1px solid #cbcbcb;
     padding: 10px;
   }
-  /* line 914, assets\less\common.less */
+  /* line 915, assets\less\common.less */
   .m.wrap.mnav .nav_head .x img {
     float: left;
     position: center;
     margin-top: 15px;
   }
-  /* line 920, assets\less\common.less */
+  /* line 921, assets\less\common.less */
   .m.wrap.mnav .nav_head .category {
     text-align: center;
     padding: 10px;
   }
-  /* line 927, assets\less\common.less */
+  /* line 928, assets\less\common.less */
   .m.wrap.mnav .nav_list > ul {
     padding: 30px;
   }
-  /* line 929, assets\less\common.less */
+  /* line 930, assets\less\common.less */
   .m.wrap.mnav .nav_list > ul > li {
     padding: 10px;
     border-bottom: 1px solid #cbcbcb;
   }
-  /* line 933, assets\less\common.less */
+  /* line 934, assets\less\common.less */
   .m.wrap.mnav .nav_list > ul > li a {
     display: block;
     overflow: hidden;
   }
-  /* line 937, assets\less\common.less */
+  /* line 938, assets\less\common.less */
   .m.wrap.mnav .nav_list > ul > li .name {
     float: left;
   }
-  /* line 940, assets\less\common.less */
+  /* line 941, assets\less\common.less */
   .m.wrap.mnav .nav_list > ul > li .su {
     float: right;
   }
-  /* line 943, assets\less\common.less */
+  /* line 944, assets\less\common.less */
   .m.wrap.mnav .nav_list > ul > li ul {
     padding: 10px;
   }
-  /* line 945, assets\less\common.less */
+  /* line 946, assets\less\common.less */
   .m.wrap.mnav .nav_list > ul > li ul li {
     padding: 5px;
   }
-  /* line 947, assets\less\common.less */
+  /* line 948, assets\less\common.less */
   .m.wrap.mnav .nav_list > ul > li ul li a {
     color: #959595;
   }
-  /* line 958, assets\less\common.less */
+  /* line 959, assets\less\common.less */
   .wrap .top {
     margin-top: 50px;
   }
-  /* line 964, assets\less\common.less */
+  /* line 965, assets\less\common.less */
   .home .wrapper .nav {
     display: none;
   }
-  /* line 968, assets\less\common.less */
+  /* line 969, assets\less\common.less */
   .home .top {
     margin-top: 20px;
   }
-  /* line 972, assets\less\common.less */
+  /* line 973, assets\less\common.less */
   .insta {
     padding: 10px;
     border: 1px #cbcbcb solid;
   }
-  /* line 975, assets\less\common.less */
+  /* line 976, assets\less\common.less */
   .insta ul {
     border: 1px #cbcbcb solid;
   }
-  /* line 977, assets\less\common.less */
+  /* line 978, assets\less\common.less */
   .insta ul li {
     display: block;
     width: 25%;
     height: 114px;
   }
-  /* line 981, assets\less\common.less */
+  /* line 982, assets\less\common.less */
   .insta ul li .image {
     width: 100%;
     height: 100%;
   }
-  /* line 984, assets\less\common.less */
+  /* line 985, assets\less\common.less */
   .insta ul li .image a {
     height: 100%;
     width: 100%;
   }
-  /* line 992, assets\less\common.less */
+  /* line 993, assets\less\common.less */
   .footer {
     padding: 20px;
     border: 1px #cbcbcb solid;
   }
-  /* line 995, assets\less\common.less */
+  /* line 996, assets\less\common.less */
   .footer .wrapper {
     border: 1px #cbcbcb solid;
     margin: 0 auto;
   }
-  /* line 999, assets\less\common.less */
+  /* line 1000, assets\less\common.less */
   .footer .wrapper .footerlist .f {
     display: inline-block;
   }
@@ -1572,110 +1572,111 @@ a:hover {
   }
   /* line 64, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num {
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
+    overflow: hidden;
   }
-  /* line 67, assets\less\subGallery.less */
+  /* line 68, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num .num {
     width: 100%;
     margin: 0 auto;
     margin-left: 45px;
   }
-  /* line 71, assets\less\subGallery.less */
+  /* line 72, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num .num li {
     margin-top: 7%;
     width: 130px;
     height: 130px;
     margin-right: 2px;
   }
-  /* line 76, assets\less\subGallery.less */
+  /* line 77, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num .num li:last-child {
     margin-right: 0;
   }
-  /* line 80, assets\less\subGallery.less */
+  /* line 81, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num .num li a img {
     width: 130px;
     height: 130px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 95, assets\less\subGallery.less */
+  /* line 96, assets\less\subGallery.less */
   .subpage-gallery .wrapper {
     width: 450px;
     margin: 0 auto;
   }
-  /* line 98, assets\less\subGallery.less */
+  /* line 99, assets\less\subGallery.less */
   .subpage-gallery .wrapper .content {
     max-width: 450px;
   }
-  /* line 103, assets\less\subGallery.less */
+  /* line 104, assets\less\subGallery.less */
   .subpage-gallery .wrapper .content ul li .h h1 {
     font-size: 20px;
   }
-  /* line 108, assets\less\subGallery.less */
+  /* line 109, assets\less\subGallery.less */
   .subpage-gallery .wrapper .content ul li .date span {
     font-size: 7px;
   }
-  /* line 112, assets\less\subGallery.less */
+  /* line 113, assets\less\subGallery.less */
   .subpage-gallery .wrapper .content ul li .view {
     font-size: 13px;
   }
-  /* line 114, assets\less\subGallery.less */
+  /* line 115, assets\less\subGallery.less */
   .subpage-gallery .wrapper .content ul li .view img {
     width: 100%;
   }
-  /* line 118, assets\less\subGallery.less */
+  /* line 119, assets\less\subGallery.less */
   .subpage-gallery .wrapper .content ul li .tag {
     font-size: 13px;
   }
-  /* line 125, assets\less\subGallery.less */
+  /* line 126, assets\less\subGallery.less */
   .subpage-gallery .wrapper .write img {
     width: 60px;
   }
-  /* line 129, assets\less\subGallery.less */
+  /* line 130, assets\less\subGallery.less */
   .subpage-gallery .wrapper .comment {
     width: 450px;
   }
-  /* line 131, assets\less\subGallery.less */
+  /* line 132, assets\less\subGallery.less */
   .subpage-gallery .wrapper .comment .area {
     margin: 0 auto;
     width: 100%;
     height: 90px;
   }
-  /* line 135, assets\less\subGallery.less */
+  /* line 136, assets\less\subGallery.less */
   .subpage-gallery .wrapper .comment .area input[type="submit"] {
     margin-top: 20px;
     width: 70px;
     height: 25px;
   }
-  /* line 142, assets\less\subGallery.less */
+  /* line 143, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num {
     width: 390px;
     height: 150px;
   }
-  /* line 145, assets\less\subGallery.less */
+  /* line 146, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num .button {
     height: 100%;
   }
-  /* line 147, assets\less\subGallery.less */
+  /* line 148, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num .button .num {
     height: 100%;
   }
-  /* line 149, assets\less\subGallery.less */
+  /* line 150, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num .button .num li {
     width: 100px;
     height: 100px;
   }
-  /* line 152, assets\less\subGallery.less */
+  /* line 153, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num .button .num li img {
     width: 100px;
     height: 100px;
   }
-  /* line 157, assets\less\subGallery.less */
+  /* line 158, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num .button .num li:nth-child(4) {
     display: none;
   }
-  /* line 160, assets\less\subGallery.less */
+  /* line 161, assets\less\subGallery.less */
   .subpage-gallery .wrapper .gallery_num .button .num li:nth-child(5) {
     display: none;
   }

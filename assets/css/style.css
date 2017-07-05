@@ -89,7 +89,7 @@ a:hover {
 }
 .wrap .wrapper .comment {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
   overflow: hidden;
 }
 .wrap .wrapper .comment .icon > span {
@@ -1273,8 +1273,9 @@ a:hover {
     margin-top: 0;
   }
   .subpage-gallery .wrapper .gallery_num {
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
+    overflow: hidden;
   }
   .subpage-gallery .wrapper .gallery_num .num {
     width: 100%;
