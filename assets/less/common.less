@@ -1,6 +1,7 @@
 @font-color:#474747;
 
 *{
+
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -36,12 +37,19 @@ a:hover{
 
 .wrap{
     .wrapper{
+        padding: 10px;
         max-width: 1320px;
         margin: 0 auto;
         .content.view{
             color:#606060;
+            text-align: left;
             ul{
                 li{
+                    .gallery{
+                        img{
+                            width: 100%;
+                        }
+                    }
                     .h{
                         float:left;
                         h1{
@@ -97,6 +105,7 @@ a:hover{
             }
         }
         .comment{
+            text-align: left;
             margin: 0 auto;
             max-width: 1200px;
             overflow: hidden;
@@ -188,51 +197,6 @@ a:hover{
             }
 
         }
-        .gallery_num{
-            margin-top: 50px;
-            height: 234px;
-            .button{
-                height: 234px;
-                position: relative;
-                button{
-                    border-style: none;
-                    text-indent: -9999px;
-                    width: 35px;
-                    height: 55px;
-                    background-color: transparent;
-                }
-                .priv{
-                    margin-right: 5px;
-                    background-image: url('../images/left.png');
-                    position: absolute;
-                    top: 50%;
-                    margin-top: -27.5px;
-                }
-                .next{
-                    margin-left: 5px;
-                    background-image: url('../images/right.png');
-                    position: absolute;
-                    right: 0;
-                    top: 50%;
-                    margin-top: -27.5px;
-                }
-            }
-            .num{
-                width: 1206.5px;
-                height: 235px;
-                margin: 0 auto;
-                li{
-                    margin-right: 5px;
-                    width: 234px;
-                    height: 234px;
-                    float: left;
-                    margin-right: 9.1px;
-                }
-                li:last-child{
-                    margin-right: 0;
-                }
-            }
-        }
     }
 }
 
@@ -247,7 +211,7 @@ a:hover{
     background-position: center;
     height: 100%;
     .wrapper{
-        padding:0;
+        padding:10px;
         height:100%;
         position: relative;
         overflow: hidden;
@@ -319,7 +283,7 @@ a:hover{
         .link{
             ul{
                 position: absolute;
-                    bottom:10px;
+                bottom: 20px;
                 li{
                     display: inline-block;
                     margin-right: 20px;
@@ -896,7 +860,6 @@ a:hover{
         }
     }
     .m.wrap.mnav{
-
         display: none;
         position: absolute;
         z-index: 9999;
@@ -956,6 +919,12 @@ a:hover{
     }
 
     .wrap{
+        padding: 10px;
+        .wrapper{
+            .list{
+                font-size: 13px;
+            }
+        }
         .top{
             margin-top: 50px;
         }

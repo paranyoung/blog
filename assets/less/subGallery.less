@@ -14,7 +14,7 @@
                 }
             }
         }
-        .gallery_list{
+        .gallery-list{
             .gallery_category{
                 border: solid 1px #acacac;
                 padding: 30px 30px;
@@ -37,7 +37,7 @@
     .subpage-gallery{
         .wrapper{
             .content{
-                width: 750px;
+                max-width: 750px;
                 margin:  0 auto;
                 margin-top: 50px;
                 ul{
@@ -61,31 +61,6 @@
                     }
                 }
             }
-            .gallery_num{
-                max-width: 750px;
-                margin: 0 auto;
-                overflow: hidden;
-                .num{
-                    width: 100%;
-                    margin: 0 auto;
-                    margin-left: 45px;
-                    li{
-                        margin-top: 7%;
-                        width: 130px;
-                        height: 130px;
-                        margin-right: 2px;
-                        &:last-child{
-                            margin-right: 0;
-                        }
-                        a{
-                            img{
-                                width: 130px;
-                                height: 130px;
-                            }
-                        }
-                    }
-                }
-            }
         }
     }
 }
@@ -94,9 +69,10 @@
 //mobile
     .subpage-gallery{
         .wrapper{
-            width: 450px;
+            padding: 10px;
             margin: 0 auto;
             .content{
+                text-align: left;
                 max-width: 450px;
                 ul{
                     li{
@@ -123,12 +99,13 @@
                 }
             }
             .write{
+                padding: 10%;
                 img{
                     width: 60px;
                 }
             }
             .comment{
-                width: 450px;
+                padding: 10px;
                 .area{
                     margin: 0 auto;
                     width: 100%;
@@ -137,30 +114,6 @@
                         margin-top: 20px;
                         width: 70px;
                         height: 25px;
-                    }
-                }
-            }
-            .gallery_num{
-                width: 390px;
-                height: 150px;
-                .button{
-                    height: 100%;
-                    .num{
-                        height: 100%;
-                        li{
-                            width: 100px;
-                            height: 100px;
-                            img{
-                                width: 100px;
-                                height: 100px;
-                            }
-                        }
-                        li:nth-child(4){
-                            display: none;
-                        }
-                        li:nth-child(5){
-                            display: none;
-                        }
                     }
                 }
             }
