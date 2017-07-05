@@ -908,15 +908,15 @@ a:hover {
   display: block;
 }
 .mainPhoto ul li:first-child {
-  background-image: url('../images/mainPhoto1.png');
+  background-image: url('../images/mainphoto1.png');
   margin-right: 18px;
 }
 .mainPhoto ul li:nth-child(2) {
-  background-image: url('../images/mainPhoto2.png');
+  background-image: url('../images/mainphoto2.png');
   margin-right: 18px;
 }
 .mainPhoto ul li:last-child {
-  background-image: url('../images/mainPhoto3.png');
+  background-image: url('../images/mainphoto3.png');
   margin-right: 0;
 }
 .mainLine {
