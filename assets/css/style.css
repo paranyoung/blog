@@ -389,6 +389,9 @@ a:hover {
   height: 1px;
   border-bottom: 1px #ffffff solid;
 }
+.footer .wrapper .footerlist .f > div {
+  margin: 0 auto;
+}
 .footer .wrapper .footerlist .aboutMe .fWrapper .profil .image {
   margin: 0 auto;
   width: 200px;
@@ -816,6 +819,7 @@ a:hover {
   }
   .footer .wrapper .footerlist .f {
     display: inline-block;
+    margin: 0 auto;
   }
 }
 .footer {
@@ -1454,7 +1458,7 @@ a:hover {
 }
 @media screen and (max-width: 480px) {
   .subpage-price .wrapper {
-    width: 460px;
+    padding: 10px;
     margin: 0 auto;
   }
   .subpage-price .wrapper .content .pricing .h h1 {
@@ -1541,7 +1545,7 @@ a:hover {
   float: right;
 }
 .subpage-contect .wrapper .content .contect .memo .memo_1 input {
-  width: 49%;
+  width: 48%;
 }
 .subpage-contect .wrapper .content .contect .memo .memo_2 {
   width: 100%;
@@ -1596,11 +1600,8 @@ a:hover {
   #header {
     display: none;
   }
-  .subpage-contect .wrapper {
-    padding: 0 10px;
-  }
   .subpage-contect .wrapper .content {
-    max-width: 450px;
+    padding: 10px;
     margin: 0 auto;
   }
   .subpage-contect .wrapper .content .contect .h {
@@ -1610,16 +1611,19 @@ a:hover {
     font-size: 25px;
   }
   .subpage-contect .wrapper .content .contect .photo {
-    width: 450px;
+    max-width: 450px;
   }
   .subpage-contect .wrapper .content .contect .photo img {
-    width: 450px;
+    width: 100%;
+  }
+  .subpage-contect .wrapper .content .contect .memo .memo_1 {
+    display: inline-block;
   }
   .subpage-contect .wrapper .content .contect .memo .send {
     width: 200px;
   }
   .subpage-contect .wrapper .content .contect .memo .send input {
-    width: 100%;
+    width: 99%;
     height: 40px;
   }
 }
