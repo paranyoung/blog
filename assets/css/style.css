@@ -223,7 +223,7 @@ a:hover {
   background-image: url('../images/facebook.png');
 }
 .header .wrapper .gnb .social ul li:nth-child(3) {
-  background-image: url('../images/NAVER.png');
+  background-image: url('../images/naver.png');
 }
 .header .wrapper .gnb .social ul li:nth-child(4) {
   background-image: url('../images/yutube.png');
@@ -1173,14 +1173,14 @@ a:hover {
 }
 @media screen and (max-width: 480px) {
   .subpage-news .wrapper {
-    width: 460px;
+    max-width: 460px;
     margin: 0 auto;
   }
   .subpage-news .wrapper .news {
     padding: 20px;
   }
   .subpage-news .wrapper .news .content ul li .h {
-    width: 380px;
+    max-width: 380px;
   }
   .subpage-news .wrapper .news .content ul li .h h1 {
     font-size: 20px;
@@ -1199,7 +1199,7 @@ a:hover {
     width: 60px;
   }
   .subpage-news .wrapper .list .category {
-    width: 400px;
+    max-width: 400px;
     font-size: 13px;
     margin: 0 auto;
   }
@@ -1323,7 +1323,7 @@ a:hover {
 }
 @media screen and (max-width: 480px) {
   .subpage-community .wrapper {
-    width: 460px;
+    max-width: 460px;
     margin: 0 auto;
   }
   .subpage-community .wrapper .content {
@@ -1348,7 +1348,7 @@ a:hover {
     width: 60px;
   }
   .subpage-community .wrapper .comment {
-    width: 450px;
+    max-width: 450px;
   }
   .subpage-community .wrapper .comment .area textarea {
     margin: 0 auto;
@@ -1362,8 +1362,8 @@ a:hover {
     height: 25px;
   }
   .subpage-community .wrapper .list .category {
-    width: 400px;
-    font-size: 13px;
+    max-width: 400px;
+    font-size: 12px;
     margin: 0 auto;
   }
 }
