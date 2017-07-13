@@ -449,17 +449,18 @@ a:hover {
   height: 100%;
 }
 .footer .wrapper .footerlist .tag .fTag .content a span {
-  border: solid 1px #b79687;
-  padding: 0 10px;
-  height: 25px;
   display: inline-block;
-  margin: 5px 5px 0;
 }
-.footer .wrapper .footerlist .tag .fTag .content a span p {
+.footer .wrapper .footerlist .tag .fTag .content a span .p {
+  border: solid 1px #b79687;
   color: #54565b;
   height: 100%;
   font-size: 14px;
+  display: block;
   line-height: 25px;
+  padding: 0 10px;
+  height: 25px;
+  margin: 5px 5px 0;
 }
 .footer .wrapper .footerlist .search .fSearch {
   width: 170px;
